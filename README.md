@@ -5,10 +5,11 @@ This can be compiled for both Octave and Matlab, although currently only set up 
 
 ====
 From octave open and write chunks of 'float' data to single channel floating point .wav files
-1st call with a particular file name will open the file and write audio data to it,
-subsequent ones will just write audio data,
-upon octave close, the .wav files will be closed
-They can also be closed by setting sample rate to a negative number
+
+* 1st call with a particular file name will open the file and write audio data to it,
+* subsequent ones will just write audio data,
+* upon octave close, the .wav files will be closed
+* files can also be closed by setting sample rate to a negative number
 
 **This requires mex-it library, c++11 compiler, octave and cmake**
 
