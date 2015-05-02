@@ -1,7 +1,7 @@
 #ifndef WAVEFILE_H
 #define WAVEFILE_H
 #include <string>
-
+// Copyright (c) 2015, Tony Kirke. License: MIT License (http://www.opensource.org/licenses/mit-license.php)
 class wavefile {
 public:
   const int bits_per_sample;

@@ -2,6 +2,8 @@
 #include "hash_map.h"
 #include <vector>
 
+// Copyright (c) 2015, Tony Kirke. License: MIT License (http://www.opensource.org/licenses/mit-license.php)
+
 // Keeps a hash map of "file name" to wavefile pointers
 // so that many files can be open at once and it will find the
 // correct pointer for writing to .wav file

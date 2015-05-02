@@ -1,7 +1,7 @@
 #include "wavefile.h"
-#include <stdio.h>
 #include <math.h>
 #include <iostream>
+// Copyright (c) 2015, Tony Kirke. License: MIT License (http://www.opensource.org/licenses/mit-license.php)
 
 void write4u(unsigned long x, char *c)
 {
