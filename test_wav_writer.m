@@ -21,5 +21,5 @@ dataf = single(data);
 
 wav_writer('t2.wav', sample_rate, dataf);
 
-
-
+% diff should be .35
+diff = wav_compare('t1.wav','t2.wav')
