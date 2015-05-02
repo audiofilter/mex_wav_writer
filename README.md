@@ -11,7 +11,7 @@ From octave open and write chunks of 'float' data to single channel floating poi
 * upon octave close, the .wav files will be closed
 * files can also be closed by setting sample rate to a negative number
 
-**This requires mex-it library, c++11 compiler, octave and cmake**
+This requires *mex-it* library, c++11 compiler, *octave* and *cmake*
 
 for example call like this
 
